@@ -88,14 +88,15 @@
   ```
   
 - 调试日志 
+
   ```objective-c
-    /** 调试日志类型 */
-typedef NS_ENUM(NSInteger, LSTPopViewLogStyle) {
+  /** 调试日志类型 */
+  typedef NS_ENUM(NSInteger, LSTPopViewLogStyle) {
     LSTPopViewLogStyleNO = 0,          // 关闭调试信息(窗口和控制台日志输出)
     LSTPopViewLogStyleWindow,          // 开启左上角小窗
     LSTPopViewLogStyleConsole,         // 开启控制台日志输出
     LSTPopViewLogStyleALL              // 开启小窗和控制台日志
-};
+  };
   ```
     - 调试小窗: S表示当前已经显示的弹窗数, R表示在移除队列的弹窗, S+R是表示当前所有的弹窗数
   
